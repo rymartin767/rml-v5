@@ -16,8 +16,10 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+            'name' => "Ryan Martin",
+            'email' => "ryan@nt4c.com",
+            'email_verified_at' => null,
+            'workos_id' => env('WORKOS_USER_ID'),
         ]);
     }
 }
