@@ -3,17 +3,15 @@
 ## Stage 0: App Setup + Tooling
 
 ### Initial Laravel Setup
-- [ ] Verify core packages installed in composer.json
+- [x] Verify core packages installed in composer.json
 
 ### Configuration Tasks
-- [ ] Configure WorkOS authentication with GitHub provider
-- [ ] Set up Filament admin panel with custom branding
+- [x] Configure WorkOS authentication with GitHub provider
+- [x] Set up Filament admin panel with custom branding
 - [ ] Configure PEST testing environment
 - [ ] Set up database (POSTGRESQL) with proper indexing strategy
-- [ ] Create base User model with WorkOS integration
+- [x] Create base User model with WorkOS integration
 - [ ] Set up basic middleware and route structure
-- [ ] Configure environment variables for all external services
-- [ ] Set up basic Livewire components structure
 
 ### Deliverables
 - Fully configured Laravel 12 application
